@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    section{
+        @apply py-[75px];
+    }
+}
+*{
+    direction: rtl
+}
+@layer components{
+    .container{
+        @apply max-w-full w-[1440px] px-5 mx-auto;
+    }
+
+    .btn{
+        @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
+    }
+
+    .heading{
+        @apply text-[44px] leading-[54px] font-[70px] text-headingColor;
+    }
+    text_para {
+        @apply  text-[18px] leading-[30px] font-[400] text-textColor mt-[18px];
+    }
+    .header{
+        @apply bg-[url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63452.jpg?w=826&t=st=1690031830~exp=1690032430~hmac=0e2af01811ad33a7d5c381cc0150d9f0624c695c5ed47e10a98cca65f5ba7ee6)] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px]; 
+    }
+    .hero_section {
+        @apply bg-[url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63452.jpg?w=826&t=st=1690031830~exp=1690032430~hmac=0e2af01811ad33a7d5c381cc0150d9f0624c695c5ed47e10a98cca65f5ba7ee6)] bg-no-repeat bg-center bg-cover
+    }
+    
+}
+
+@media only screen and (max-width:1024px){
+    .container{
+        @apply w-full;
+    }
+}
