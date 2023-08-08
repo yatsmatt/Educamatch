@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 
 //route to routes
 app.use("/api/goals", require("./routes/goalRoutes"));
+app.use("/api/users", require("./routes/userRoutes"));
 app.use(errorHeanler);
 //setver start function
 app.listen(port, () => {
