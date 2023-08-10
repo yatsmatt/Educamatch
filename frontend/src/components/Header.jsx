@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
     <>
-    <header className='header flex items-center' ref={headerRef} style={{borderRadius:'0px 0px 20px 20px'}}>
+    <header className='header flex items-center' ref={headerRef}>
       <div className='container' > 
        <div className='flex items-center justify-between'>
         <div>
@@ -69,7 +69,7 @@ const Header = () => {
             </figure>
             </Link>
           </div>
-          <Link to='/login'>
+          <Link to='/connect'>
             <button className='bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center rounded-[50px]'>התחבר</button>
           </Link>
 
