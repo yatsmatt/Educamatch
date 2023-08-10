@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import Login from '../assets/connect/Login'
-import SingupStudent from '../assets/connect/SingupStudent'
-import SingupTeacher from '../assets/connect/SingupTeacher'
+import Login from '../connect/Login'
+import SingupStudent from '../connect/SingupStudent'
+import SingupTeacher from '../connect/SingupTeacher'
 
 const connect = () => {
 
